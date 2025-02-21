@@ -16,16 +16,14 @@ struct EngineTests {
     @Test
     func twoPlayersBothActiveImmediately() throws {
         // given
-        engine.players = [
-            .init(name: "test 1", id: .init()),
-            .init(name: "test 2", id: .init()),
-        ]
+        engine.addPlayer(name: "test 1")
+        engine.addPlayer(name: "test 2")
 
         // when
         try engine.start()
 
         // then
-        let bothPlayersAreActive = engine.players.allSatisfy({
+        let bothPlayersAreActive = engine.sortedPlayers.allSatisfy({
             $0.active
         })
 
@@ -34,8 +32,8 @@ struct EngineTests {
 
     @Test func elevenPlayersLeavesOneInactiveAtStart() throws {
         // given
-        engine.players = (0 ..< 11).map {
-            Player(name: "\($0)", id: .init())
+        (0 ..< 11).forEach {
+            engine.addPlayer(name: "\($0)")
         }
 
         // when
@@ -47,10 +45,15 @@ struct EngineTests {
 
     @Test func startWithNoPlayersThrows() throws {
         // given
-        engine.players = []
         // when
-        try engine.start()
-        // then
+        do {
+            try engine.start()
+            #expect(Bool(false))
+        } catch {
+            // then
+            #expect(error as? EngineError == EngineError.noPlayers)
+        }
+        
 
     }
 }

@@ -5,24 +5,66 @@
 //  Created by Goodrick,Joseph on 2/20/25.
 //
 
-final class Engine {
-    var players: [Player]
+import Foundation
 
+struct Player: Identifiable {
+    var id: UUID = .init()
+    let name: String
+    let added: Date = .now
+    var state: State
+    enum State {
+        case active
+        case idle
+    }
+    var active: Bool { state ~= .active }
+}
+
+final class Engine {
+    var sortedPlayers: [Player] {
+        players.values.sorted(by: { $0.added < $1.added })
+    }
+    
+    private var players: [Player.ID: Player]
+    
+    private var gameTime: TimeInterval = 0
+    
+    private var onDeck: [Player.ID: Player.ID] = [:]
+    
+    private var totalActiveTime: [Player.ID: TimeInterval] = [:]
+    
+    private var states: [Player.ID: Player.State] = [:]
+    
     init(players: [Player]) {
-        self.players = players
+        self.players = players.reduce(into: [:]) {
+            $0[$1.id] = $1
+        }
     }
 
     func start() throws {
-        players = players.enumerated().map { (index, player) in
+        guard !sortedPlayers.isEmpty else {
+            throw EngineError.noPlayers
+        }
+        players = sortedPlayers.enumerated().map { (index, player) in
             var copy = player
             if index < 10 {
-                copy.active = true
+                copy.state = .active
             }
             return copy
+        }.reduce(into: [:]) {
+            $0[$1.id] = $1
         }
     }
 
     var activePlayers: Int {
-        players.count(where: \.active)
+        sortedPlayers.count(where: \.active)
     }
+    
+    func addPlayer(name: String) {
+        let player = Player(name: name, state: .idle)
+        players[player.id] = player
+    }
+}
+
+enum EngineError: Error {
+    case noPlayers
 }

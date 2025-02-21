@@ -11,7 +11,7 @@ import SwiftUI
 struct PineTimeApp: App {
     var body: some Scene {
         WindowGroup {
-            Root()
+//            Root()
         }
     }
 }

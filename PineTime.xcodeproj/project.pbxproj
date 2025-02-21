@@ -7,35 +7,27 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		18F068F12D51BBD1002BF68C /* PBXContainerItemProxy */ = {
+		E9EFE2B22D683BA40091C1A6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18F068D82D51BBCF002BF68C /* Project object */;
+			containerPortal = E9EFE2982D683BA30091C1A6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 18F068DF2D51BBCF002BF68C;
-			remoteInfo = PineTime;
-		};
-		18F068FB2D51BBD1002BF68C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 18F068D82D51BBCF002BF68C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18F068DF2D51BBCF002BF68C;
+			remoteGlobalIDString = E9EFE29F2D683BA30091C1A6;
 			remoteInfo = PineTime;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18F068E02D51BBCF002BF68C /* PineTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PineTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18F068F02D51BBD1002BF68C /* PineTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18F068FA2D51BBD1002BF68C /* PineTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFE2A02D683BA30091C1A6 /* PineTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PineTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EFE2B12D683BA40091C1A6 /* PineTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PineTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18F068E22D51BBCF002BF68C /* PineTime */ = {
+		E9EFE2A22D683BA30091C1A6 /* PineTime */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PineTime;
 			sourceTree = "<group>";
 		};
-		18F068F32D51BBD1002BF68C /* PineTimeTests */ = {
+		E9EFE2B42D683BA40091C1A6 /* PineTimeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PineTimeTests;
 			sourceTree = "<group>";
@@ -43,21 +35,14 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18F068DD2D51BBCF002BF68C /* Frameworks */ = {
+		E9EFE29D2D683BA30091C1A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18F068ED2D51BBD1002BF68C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18F068F72D51BBD1002BF68C /* Frameworks */ = {
+		E9EFE2AE2D683BA40091C1A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,21 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18F068D72D51BBCF002BF68C = {
+		E9EFE2972D683BA30091C1A6 = {
 			isa = PBXGroup;
 			children = (
-				18F068E22D51BBCF002BF68C /* PineTime */,
-				18F068F32D51BBD1002BF68C /* PineTimeTests */,
-				18F068E12D51BBCF002BF68C /* Products */,
+				E9EFE2A22D683BA30091C1A6 /* PineTime */,
+				E9EFE2B42D683BA40091C1A6 /* PineTimeTests */,
+				E9EFE2A12D683BA30091C1A6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		18F068E12D51BBCF002BF68C /* Products */ = {
+		E9EFE2A12D683BA30091C1A6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18F068E02D51BBCF002BF68C /* PineTime.app */,
-				18F068F02D51BBD1002BF68C /* PineTimeTests.xctest */,
-				18F068FA2D51BBD1002BF68C /* PineTimeUITests.xctest */,
+				E9EFE2A02D683BA30091C1A6 /* PineTime.app */,
+				E9EFE2B12D683BA40091C1A6 /* PineTimeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,131 +73,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18F068DF2D51BBCF002BF68C /* PineTime */ = {
+		E9EFE29F2D683BA30091C1A6 /* PineTime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F069042D51BBD1002BF68C /* Build configuration list for PBXNativeTarget "PineTime" */;
+			buildConfigurationList = E9EFE2C52D683BA40091C1A6 /* Build configuration list for PBXNativeTarget "PineTime" */;
 			buildPhases = (
-				18F068DC2D51BBCF002BF68C /* Sources */,
-				18F068DD2D51BBCF002BF68C /* Frameworks */,
-				18F068DE2D51BBCF002BF68C /* Resources */,
+				E9EFE29C2D683BA30091C1A6 /* Sources */,
+				E9EFE29D2D683BA30091C1A6 /* Frameworks */,
+				E9EFE29E2D683BA30091C1A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18F068E22D51BBCF002BF68C /* PineTime */,
+				E9EFE2A22D683BA30091C1A6 /* PineTime */,
 			);
 			name = PineTime;
 			packageProductDependencies = (
 			);
 			productName = PineTime;
-			productReference = 18F068E02D51BBCF002BF68C /* PineTime.app */;
+			productReference = E9EFE2A02D683BA30091C1A6 /* PineTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18F068EF2D51BBD1002BF68C /* PineTimeTests */ = {
+		E9EFE2B02D683BA40091C1A6 /* PineTimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18F069072D51BBD1002BF68C /* Build configuration list for PBXNativeTarget "PineTimeTests" */;
+			buildConfigurationList = E9EFE2C82D683BA40091C1A6 /* Build configuration list for PBXNativeTarget "PineTimeTests" */;
 			buildPhases = (
-				18F068EC2D51BBD1002BF68C /* Sources */,
-				18F068ED2D51BBD1002BF68C /* Frameworks */,
-				18F068EE2D51BBD1002BF68C /* Resources */,
+				E9EFE2AD2D683BA40091C1A6 /* Sources */,
+				E9EFE2AE2D683BA40091C1A6 /* Frameworks */,
+				E9EFE2AF2D683BA40091C1A6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18F068F22D51BBD1002BF68C /* PBXTargetDependency */,
+				E9EFE2B32D683BA40091C1A6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				18F068F32D51BBD1002BF68C /* PineTimeTests */,
+				E9EFE2B42D683BA40091C1A6 /* PineTimeTests */,
 			);
 			name = PineTimeTests;
 			packageProductDependencies = (
 			);
 			productName = PineTimeTests;
-			productReference = 18F068F02D51BBD1002BF68C /* PineTimeTests.xctest */;
+			productReference = E9EFE2B12D683BA40091C1A6 /* PineTimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		18F068F92D51BBD1002BF68C /* PineTimeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 18F0690A2D51BBD1002BF68C /* Build configuration list for PBXNativeTarget "PineTimeUITests" */;
-			buildPhases = (
-				18F068F62D51BBD1002BF68C /* Sources */,
-				18F068F72D51BBD1002BF68C /* Frameworks */,
-				18F068F82D51BBD1002BF68C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				18F068FC2D51BBD1002BF68C /* PBXTargetDependency */,
-			);
-			name = PineTimeUITests;
-			packageProductDependencies = (
-			);
-			productName = PineTimeUITests;
-			productReference = 18F068FA2D51BBD1002BF68C /* PineTimeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18F068D82D51BBCF002BF68C /* Project object */ = {
+		E9EFE2982D683BA30091C1A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					18F068DF2D51BBCF002BF68C = {
+					E9EFE29F2D683BA30091C1A6 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					18F068EF2D51BBD1002BF68C = {
+					E9EFE2B02D683BA40091C1A6 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 18F068DF2D51BBCF002BF68C;
-					};
-					18F068F92D51BBD1002BF68C = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 18F068DF2D51BBCF002BF68C;
+						TestTargetID = E9EFE29F2D683BA30091C1A6;
 					};
 				};
 			};
-			buildConfigurationList = 18F068DB2D51BBCF002BF68C /* Build configuration list for PBXProject "PineTime" */;
+			buildConfigurationList = E9EFE29B2D683BA30091C1A6 /* Build configuration list for PBXProject "PineTime" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 18F068D72D51BBCF002BF68C;
+			mainGroup = E9EFE2972D683BA30091C1A6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 18F068E12D51BBCF002BF68C /* Products */;
+			productRefGroup = E9EFE2A12D683BA30091C1A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18F068DF2D51BBCF002BF68C /* PineTime */,
-				18F068EF2D51BBD1002BF68C /* PineTimeTests */,
-				18F068F92D51BBD1002BF68C /* PineTimeUITests */,
+				E9EFE29F2D683BA30091C1A6 /* PineTime */,
+				E9EFE2B02D683BA40091C1A6 /* PineTimeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18F068DE2D51BBCF002BF68C /* Resources */ = {
+		E9EFE29E2D683BA30091C1A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18F068EE2D51BBD1002BF68C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18F068F82D51BBD1002BF68C /* Resources */ = {
+		E9EFE2AF2D683BA40091C1A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,21 +175,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18F068DC2D51BBCF002BF68C /* Sources */ = {
+		E9EFE29C2D683BA30091C1A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		18F068EC2D51BBD1002BF68C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		18F068F62D51BBD1002BF68C /* Sources */ = {
+		E9EFE2AD2D683BA40091C1A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,20 +192,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18F068F22D51BBD1002BF68C /* PBXTargetDependency */ = {
+		E9EFE2B32D683BA40091C1A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18F068DF2D51BBCF002BF68C /* PineTime */;
-			targetProxy = 18F068F12D51BBD1002BF68C /* PBXContainerItemProxy */;
-		};
-		18F068FC2D51BBD1002BF68C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 18F068DF2D51BBCF002BF68C /* PineTime */;
-			targetProxy = 18F068FB2D51BBD1002BF68C /* PBXContainerItemProxy */;
+			target = E9EFE29F2D683BA30091C1A6 /* PineTime */;
+			targetProxy = E9EFE2B22D683BA40091C1A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18F069022D51BBD1002BF68C /* Debug */ = {
+		E9EFE2C32D683BA40091C1A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,18 +252,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		18F069032D51BBD1002BF68C /* Release */ = {
+		E9EFE2C42D683BA40091C1A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,184 +307,158 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		18F069052D51BBD1002BF68C /* Debug */ = {
+		E9EFE2C62D683BA40091C1A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZKVV72QH9U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brycemcewen.PineTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
-		18F069062D51BBD1002BF68C /* Release */ = {
+		E9EFE2C72D683BA40091C1A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZKVV72QH9U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brycemcewen.PineTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
-		18F069082D51BBD1002BF68C /* Debug */ = {
+		E9EFE2C92D683BA40091C1A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZKVV72QH9U;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brycemcewen.PineTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PineTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PineTime";
+				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
 		};
-		18F069092D51BBD1002BF68C /* Release */ = {
+		E9EFE2CA2D683BA40091C1A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZKVV72QH9U;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.7;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.brycemcewen.PineTimeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PineTime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PineTime";
-			};
-			name = Release;
-		};
-		18F0690B2D51BBD1002BF68C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZKVV72QH9U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brycemcewen.PineTimeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PineTime;
-			};
-			name = Debug;
-		};
-		18F0690C2D51BBD1002BF68C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZKVV72QH9U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.brycemcewen.PineTimeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PineTime;
+				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18F068DB2D51BBCF002BF68C /* Build configuration list for PBXProject "PineTime" */ = {
+		E9EFE29B2D683BA30091C1A6 /* Build configuration list for PBXProject "PineTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F069022D51BBD1002BF68C /* Debug */,
-				18F069032D51BBD1002BF68C /* Release */,
+				E9EFE2C32D683BA40091C1A6 /* Debug */,
+				E9EFE2C42D683BA40091C1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F069042D51BBD1002BF68C /* Build configuration list for PBXNativeTarget "PineTime" */ = {
+		E9EFE2C52D683BA40091C1A6 /* Build configuration list for PBXNativeTarget "PineTime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F069052D51BBD1002BF68C /* Debug */,
-				18F069062D51BBD1002BF68C /* Release */,
+				E9EFE2C62D683BA40091C1A6 /* Debug */,
+				E9EFE2C72D683BA40091C1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18F069072D51BBD1002BF68C /* Build configuration list for PBXNativeTarget "PineTimeTests" */ = {
+		E9EFE2C82D683BA40091C1A6 /* Build configuration list for PBXNativeTarget "PineTimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18F069082D51BBD1002BF68C /* Debug */,
-				18F069092D51BBD1002BF68C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18F0690A2D51BBD1002BF68C /* Build configuration list for PBXNativeTarget "PineTimeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				18F0690B2D51BBD1002BF68C /* Debug */,
-				18F0690C2D51BBD1002BF68C /* Release */,
+				E9EFE2C92D683BA40091C1A6 /* Debug */,
+				E9EFE2CA2D683BA40091C1A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18F068D82D51BBCF002BF68C /* Project object */;
+	rootObject = E9EFE2982D683BA30091C1A6 /* Project object */;
 }

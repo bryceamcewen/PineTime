@@ -16,7 +16,4 @@ struct Player: Identifiable {
     var active: Bool = false
     var subName: String = ""
     var totalTime: TimeInterval = 0.0
-    
-    
-    
 }

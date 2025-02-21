@@ -2,11 +2,10 @@
 //  PineTimeTests.swift
 //  PineTimeTests
 //
-//  Created by Bryce McEwen on 2/3/25.
+//  Created by Goodrick,Joseph on 2/20/25.
 //
 
 import Testing
-@testable import PineTime
 
 struct PineTimeTests {
 

@@ -24,6 +24,10 @@ final class Engine {
         players.values.sorted(by: { $0.added < $1.added })
     }
     
+    var sortedActivePlayers: [Player] {
+        players.values.filter { $0.active }.sorted(by: { $0.added < $1.added })
+    }
+    
     private var players: [Player.ID: Player]
     
     private var gameTime: TimeInterval = 0
@@ -67,4 +71,5 @@ final class Engine {
 
 enum EngineError: Error {
     case noPlayers
+    case notEnoughPlayers
 }
